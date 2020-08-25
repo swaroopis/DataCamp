@@ -1,8 +1,10 @@
+##Baseball Analysis
+
 This project is best for seaborn library reference. Baseball knowledge makes it exciting but not required perse.
 
 Uncommon methods used:
 
-pandas
+#pandas
 
 1. pd.set_option('display.max_columns', None)
 
@@ -17,7 +19,7 @@ pandas
 
 Note - Try using df.assign if new column is only for specific analysis and no further usage(ensures no inplace change of df)
 
-seaborn
+#seaborn
 
 1. sns.regplot(x=columnx, y=columny, data=df, fit_reg=False, color=color,  ax=axes[index]).set_title(Title) 
 
@@ -35,7 +37,7 @@ Tip for sns: Passing `rug=True` draws a small vertical tick at each observation,
 
 - Useful when x has categories within, and y has corresponding values for further analysis.
 
-matplotlib
+#matplotlib
 
 1. plt.hist2d(df[columnx], df[columny], bins = n, cmap='color')
 
